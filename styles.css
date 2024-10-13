@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('fundo.jpg') no-repeat center center fixed; /* Imagem de fundo */
+    background-size: cover;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8); /* Fundo preto com opacidade */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 50%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: white;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0;
+    color: white;
+}
+
+.input-container {
+    margin: 20px 0;
+}
+
+#guess-input {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid white;
+    border-radius: 5px;
+    width: 80%;
+    color: black;
+}
+
+#submit-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    border: none;
+    background: white;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#feedback {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
